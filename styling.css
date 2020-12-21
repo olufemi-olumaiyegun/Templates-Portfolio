@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+#bossDiv{
+    height:1000px;
+    padding: 0px;
+    display:inline-block;
+    width: 100%;
+    background-color: white;
+
+}
+
+/* this is an id. remember id's must be unique */
+#test {
+    width: 100%;
+    
+}
+
+#header {
+  display:flex;
+    width: 1298px;
+
+
+
+    text-align: center;
+    text-decoration: wavy;
+    
+height: 13%;
+   /* background-color:#532c10;*/
+   position: fixed;
+   top: 0;
+    font: bold;
+    color:black;
+    font-family: 'Montserrat','sans-serif';
+}
+#header a{
+  color:rgb(133, 87, 78);
+}
+#header h1{
+    font-size: 43px;
+    text-align: start;
+    
+}
+
+body{
+    padding-left: 200px;
+    padding-right: 100px;
+    width: 70%;
+    background-color: white;
+}
+#img1{
+    object-fit: fill;
+
+}
+
+#About{
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(248,248,255);
+    box-shadow: 100 80px 80px 100px rgba(172, 43, 43, 0.2);
+    position: sticky;
+
+    overflow: hidden;
+    border-radius: 10px;
+   
+}
+
+#textAbout{
+    max-width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+background-color: #f1f9ec;
+background-image: url("downloads/Untitled\ design\(7\).png");
+object-fit: cover;
+    color:rgb(56, 32, 32);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#textAbout > h1 {
+    font-size: 35px;
+    font-weight: 10em;
+    text-align: center;
+    color:rgb(70, 33, 33);
+}
+#textAbout > p {
+    font-size:20px;
+    line-height: 35px;
+}
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: rgb(248,248,255);
+    color: teal;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: 100%;
+    font-family: 'Montserrat','sans-serif';
+         
+
+
+    
+
+  }
+  
+ 
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position:relative;
+    display: inline-block;
+    margin-left: 425px;
+    
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    right: 0;
+    z-index: 1;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    width: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 120px;
+    padding-left: 10px;
+    text-decoration: none;
+    transition: right ease 0.2s;
+    display: block;
+
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {padding-left: 20px;
+    background-color:#4CAF50; opacity: 0.8;
+    }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover {
+      background-color: white;
+      color: rgb(107, 4, 4);
+  }
+  .dropbtn:hover {
+      background-color: white;
+    color: rgb(107, 4, 4);
+    }
+    
+    
+ 
+
+#Portfolio-wrapper{
+      height: 100%;
+     background-color: transparent;
+      margin-bottom: 0px;
+      padding-bottom: 0;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      position: sticky;
+
+
+  }
+
+#Technologies-wrapper{
+    height: 50%;
+    margin-top: 180px;
+      
+      background-image: url("Downloads/Untitled\ design\(5\).png");
+      
+      background-color:white;
+      padding-left: 10px;
+      padding-right: 10px;
+      display: flex;
+      position: sticky;
+    
+
+
+     
+}
+
+  .item {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgb(248,248,255);
+    position: relative ;
+    transition: top ease 0.1s;
+    margin: 10px;
+    padding:20px;
+    margin-right: 10px;
+    height: 020;
+    margin-left: 65px;
+  }
+  
+  .item:hover {
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.2);
+    top: -50px;
+
+  }
+  
+  .item img {
+    width: 100%;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    box-shadow: 20px 25px 25px 20px rgba(0,0,0,0.2);
+
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 7px 2px;
+    position: relative;
+    height: 30%;
+  }
+  .button:hover{
+    box-shadow: 50px 60px 60px 50px rgba(0,0,0,0.2);
+
+    top: -10px;
+    position: relative;
+  }
+
+  #buttonSet{
+    display: inline-flex;width: 60%; flex-wrap: wrap; height: 40%; margin-left: 80px;
+    overflow:visible;
+    opacity: 0.9;
+    position: relative;
+  }
+
+  .underlineLink {
+      text-decoration: underline;
+  }
+  .dropdown .dropbtn a {
+    color:rgb(133, 87, 78);
+  }
+
+  #forCoolbackground{
+    background-repeat: repeat-y;
+    overflow:visible;
+    height: 100%;
+position: sticky;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  ul {
+    display: flex;
+  }
+
+  #container {
+    color:whitesmoke;
+    font-size:36px;
+    font-weight:bold;
+    position:relative;
+    text-align: center;
+    width:100%;
+    bottom:40%;
+    display:block;
+  }
+  
+  #flip {
+    height:90px;
+    overflow:hidden;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    margin-right:320px;
+    margin-left: 50px;
+    width: 85%;
+    height:45px;border-radius: 5px;
+    
+    margin-bottom:45px;
+    padding-top:15px;
+    display:inline-block;
+    border-radius: 10px ;
+
+  }
+  .padWord{
+    padding: 10px;
+    
+
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background-color: #69bf59;
+  }
+  #flip div:first-child div {
+    background:#9559bf;
+    border-color: red;
+  }
+  #flip div:last-child div {
+    background:#bf7e59;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-360px;}
+    5% {margin-top:-270px;}
+    25% {margin-top:-270px;}
+    30% {margin-top:-180px;}
+    50% {margin-top:-180px;}
+    57% {margin-top:-90px;}
+    77% {margin-top:-90px;}
+    82% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-360px;}
+  }
+  /**footer**/
+
+  #footer{
+    display: inline-flex;background-color: rgb(248,248,255); width: 100%;font-family: 'Montserrat','sans-serif';
+    margin-top: 0px; position: fixed; font-size: small; bottom: 0; 
+  }
+ /*bouncy Arrow */
+
+ .center-con {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.round {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  
+  
+}
+
+#cta{
+  width:100%; cursor: pointer; position: absolute;
+}
+
+#cta .arrow{left: 30%;}
+.arrow {position: absolute; bottom: 0;  margin-left:0px; width: 12px; height: 12px; background-size: contain; top:15px;}
+.segunda{margin-left: 8px;}
+.next {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
+}
+
+@keyframes bounceAlpha {
+0% {opacity: 1; transform: translateX(0px) scale(1);}
+25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.bounceAlpha {
+  animation-name: bounceAlpha;
+  animation-duration:1.4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+.arrow.primera.bounceAlpha {
+  animation-name: bounceAlpha;
+  animation-duration:1.4s;
+  animation-delay:0.2s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+.round:hover .arrow{
+  animation-name: bounceAlpha;
+  animation-duration:1.4s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+.round:hover .arrow.primera{
+  animation-name: bounceAlpha;
+  animation-duration:1.4s;
+  animation-delay:0.2s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+}
+
+/* slider for work experience, education, projects and achievements */
+
+.boxSize{
+  box-sizing: border-box;
+
+}
+.slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  margin: 30px;
+  margin-bottom: 10px;
+}
+
+.slides {
+  display: flex;
+  
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-corner {
+  background: rgb(95, 37, 95);
+  border-radius: 1px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: rgb(100, 61, 61);
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slides > div:hover{
+  background: rgb(211, 41, 41);
+
+}
+.slides > div:target {
+/*   transform: scale(0.8); */
+}
+.author-info {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.author-info a {
+  color: white;
+}
+img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
+}
+
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
+}
+
+
+
